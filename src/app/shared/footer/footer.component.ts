@@ -1,4 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  OnChanges,
+  DoCheck,
+  AfterViewInit,
+  AfterViewChecked,
+  AfterContentChecked,
+  OnDestroy,
+  SimpleChanges,
+  AfterContentInit,
+  Input
+} from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +19,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  order = 1;
+  @Input() footerText;
+  @Input() numberOfItems: number;
+
   constructor() { }
 
   ngOnInit() {
   }
-
 }
