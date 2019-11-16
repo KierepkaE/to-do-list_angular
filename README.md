@@ -1,6 +1,6 @@
-# TodoApp
+# to do list
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+#### my first Angular project 
 
 ## Development server
 
